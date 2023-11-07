@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESOURCE_GROUP_NAME=remote-oct
+RESOURCE_GROUP_NAME=remoteoctob
 STORAGE_ACCOUNT_NAME=boboguguruyole$RANDOM
 CONTAINER_NAME=containertfstate
 
