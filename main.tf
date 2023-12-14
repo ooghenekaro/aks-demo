@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "arg" {
 
 # Create Azure Container Registry
 resource "azurerm_container_registry" "acr" {
-  name                = "boboacr"
+  name                = "sylacr"
   resource_group_name = azurerm_resource_group.arg.name
   location            = azurerm_resource_group.arg.location
   sku                 = "Standard"
